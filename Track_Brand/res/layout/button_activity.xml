@@ -1,18 +1,31 @@
  
+ 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    style="@style/ListFont"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-    
-<TextView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/button_activity" />
+    android:background="@drawable/background"
+    android:baselineAligned="true"
+    android:clickable="true"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true" >
 
 <ListView
     android:id="@+id/BlistView"
+    style="@style/ListFont"
     android:layout_width="match_parent"
-    android:layout_height="396dp" >
+    android:layout_height="396dp"
+    android:clipToPadding="true"
+    android:fadingEdge="none"
+    android:footerDividersEnabled="true"
+    android:headerDividersEnabled="true"
+    android:minHeight="16dp"
+    android:textDirection="inherit" >
+
+"
 </ListView>
 
 </LinearLayout>
