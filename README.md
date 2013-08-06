@@ -43,10 +43,16 @@ Sources
 ---------------------------------
 
 http://developer.android.com/index.html
+//
 http://www.youtube.com/user/batwingd?feature=watch   : Jonathan Engelsma on Youtube
+//
 http://www.androidhive.info/
+//
 https://www.youtube.com/user/DrBFraser/videos
+//
 http://mimirsoft.com/
+
+//
 http://www.vogella.com/articles/Android/article.html
 
 
