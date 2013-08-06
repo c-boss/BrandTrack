@@ -1,5 +1,5 @@
 ***************************************************************************************************************************
-BrandTrack Copyright © 2013 
+BrandTrack Copyright ï¿½ 2013 
 
 Dipika Jain And Minh Nhat Vu
 
@@ -24,9 +24,9 @@ Future Enhancements
    In the future, we will apply the current place on this app. For example, if you go somewhere or some places, this apps will find your's current location and fetch data about the store near this location. After that, this apps will find some deals about these stores and give it for the customers.
 ------------------
  
-•Presently BrandTrack is saving all the information that you entered in its database, update the tracking information and remembers that for you.
+ï¿½Presently BrandTrack is saving all the information that you entered in its database, update the tracking information and remembers that for you.
   Later when you checklist the specific coupon it will tag that coupon for you so that when you are gone you dont forget to use it.
- •We intend to add the google maps in it so that it also gives you the direction, map of the store location, deals pop-ups whenever you are around the store.
+ ï¿½We intend to add the google maps in it so that it also gives you the direction, map of the store location, deals pop-ups whenever you are around the store.
  
  
 ------------------
@@ -51,7 +51,18 @@ Copyright(C) 2013 Dipika Jain And Minh Nhat Vu
 License 
 ----------------------------------
 
-https://github.com/jdipika/BrandTrack/blob/master/License.txt
+https://github.com/jdipika/BrandTrack/blob/master/License.
+
+---------------------------------
+Sources
+---------------------------------
+http://developer.android.com/index.html
+http://www.youtube.com/user/batwingd?feature=watch   : Jonathan Engelsma on Youtube
+http://www.androidhive.info/
+https://www.youtube.com/user/DrBFraser/videos
+http://mimirsoft.com/
+http://www.vogella.com/articles/Android/article.html
+
 
 
 For any questions please contact
