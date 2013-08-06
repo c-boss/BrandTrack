@@ -38,6 +38,29 @@ License
 
 https://github.com/jdipika/BrandTrack/blob/master/License.txt
 
+---------------------------------
+Sources
+---------------------------------
+
+http://developer.android.com/index.html : android developers
+//
+http://www.youtube.com/user/batwingd?feature=watch   : Jonathan Engelsma on Youtube
+//
+http://www.androidhive.info/   :androidhive
+//
+https://www.youtube.com/user/DrBFraser/videos  : DrBFraser Videos on Youtube
+//
+http://mimirsoft.com/    : mimir soft videos on Youtube
+
+//
+http://www.vogella.com/articles/Android/article.html  : Vogella
+
+
+------------------------
+BrandTrack Wiki
+------------------------
+https://github.com/jdipika/BrandTrack/wiki
+
 
 For any questions please contact
 -------------------------------- 
