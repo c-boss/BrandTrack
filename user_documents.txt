@@ -1,0 +1,22 @@
+Installing Android application
+
+On  Phone
+ -> Connect your device with USB to the machine
+ -> For build 4.1.(S2 & S3)
+    -> Goto Settings 
+    -> Click on Developer Option
+    -> Check on Debugging Option
+
+ -> For build on 4.2.(S4)
+    -> Click on Settings
+    -> Goto to more Options
+    -> Click on about Device Option
+    -> Tap 7 times on the Build Number(weird but true)
+    -> Bingo Developer mode is enabled -> check on USB Debugging Option
+
+
+To build (Eclipse):
+
+ -> Click on the “Run Configuration As” 
+ -> Select the "Target: tab and choose the active device option from the menu
+ -> Click Apply & Run the application
