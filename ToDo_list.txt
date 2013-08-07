@@ -1,0 +1,13 @@
+-----------------------------------------------------------------------------
+-----------------------------------Future Enhancements-----------------------
+-----------------------------------------------------------------------------
+
+Future versions will include following additional features:
+
+-- Ability to save coupons, deals & offers with calendar reminders to alert user of coupon expiry.
+-- Ability to scan/import user's coupon from mails/emails etc.
+-- Allow users to create multiple brandlists based on category.
+-- Maps feature to provide the store location/directory information and directions.
+-- Integration of user tracking using GPS location to fetch pop-ups for stores near user.
+-- Integration of social networking to share hot deals/coupons.
+-- Intelligent user preference tracking to provide RSS feed like update on preferred brands/stores.
