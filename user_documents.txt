@@ -2,12 +2,12 @@ Installing Android application
 
 On  Phone
  -> Connect your device with USB to the machine
- -> For build 4.1.(S2 & S3)
+ -> For build 4.1.(Samsung Galaxy S2 & S3)
     -> Goto Settings 
     -> Click on Developer Option
     -> Check on Debugging Option
 
- -> For build on 4.2.(S4)
+ -> For build on 4.2.(Samsung Galaxy S4)
     -> Click on Settings
     -> Goto to more Options
     -> Click on about Device Option
@@ -17,6 +17,6 @@ On  Phone
 
 To build (Eclipse):
 
- -> Click on the “Run Configuration As” 
+ -> Click on the ï¿½Run Configuration Asï¿½ 
  -> Select the "Target: tab and choose the active device option from the menu
  -> Click Apply & Run the application
