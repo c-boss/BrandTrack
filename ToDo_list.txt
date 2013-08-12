@@ -11,8 +11,3 @@ Future versions will include following additional features:
 -- Integration of user tracking using GPS location to fetch pop-ups for stores near user.
 -- Integration of social networking to share hot deals/coupons.
 -- Intelligent user preference tracking to provide RSS feed like update on preferred brands/stores.
-
-
-Open-Android-BrandTrack
-Copyright © 2013
-Dipika Jain and Minh Vu

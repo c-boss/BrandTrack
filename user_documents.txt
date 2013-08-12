@@ -20,8 +20,3 @@ To build (Eclipse):
  -> Click on the �Run Configuration As� 
  -> Select the "Target: tab and choose the active device option from the menu
  -> Click Apply & Run the application
-
-
-Open-Android-BrandTrack
-Copyright © 2013
-Dipika Jain and Minh Vu
