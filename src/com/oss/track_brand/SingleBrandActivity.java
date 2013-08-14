@@ -33,6 +33,9 @@ import java.util.List;
 
 import android.os.Bundle;
 
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -48,7 +51,7 @@ public class SingleBrandActivity extends Activity {
 	private static final String TAG_ITEM = "items";
 	
 	String brand_name_in, url_api, curr_brand_name_in;
-	String curr_url_api = "https://www.googleapis.com/shopping/search/v1/public/products?key=AIzaSyCMSePLJL3B2cF0H0x_q9SpN444mzvxlWw&country=US&q=brand+discounts+Coupon+&alt=json";
+	String curr_url_api = "https://www.googleapis.com/shopping/search/v1/public/products?key=AIzaSyCMSePLJL3B2cF0H0x_q9SpN444mzvxlWw&country=US&q=brand&alt=json";
 	String find_word = "brand";
 	private ListView list;
 	List<Image_Link_Webview> IMW = new ArrayList<Image_Link_Webview>();
@@ -63,7 +66,6 @@ public class SingleBrandActivity extends Activity {
 		txt_brand_name.setText(brand_name_in);
 		curr_brand_name_in = brand_name_in.toLowerCase().replaceAll("\\s", "");
 		url_api = curr_url_api.replace(find_word, curr_brand_name_in);
-		Toast.makeText(getApplicationContext(), url_api, Toast.LENGTH_LONG).show();
 		
 		IMW = Get_Value(ParseJSON(url_api));
 		List<String> Title = Seperate_Link_Title(ParseJSON(url_api));
@@ -80,7 +82,6 @@ public class SingleBrandActivity extends Activity {
 				TextView textview = (TextView) viewclick;
 				String Title = textview.getText().toString();
 				String web_url = Find_Url(Title);
-				//Toast.makeText(getApplicationContext(), web_url, Toast.LENGTH_LONG).show();
 				i.putExtra("Web_Url", web_url);
 				startActivity(i);
 			}
@@ -145,4 +146,33 @@ public class SingleBrandActivity extends Activity {
 		}
 		return url;
 	}
+	
+	public boolean onCreateOptionsMenu(Menu menu)
+	{
+	    MenuInflater menuInflater = getMenuInflater();
+	    menuInflater.inflate(R.layout.menu, menu);
+	    return true;
+	}
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item)
+	{
+	     CharSequence abc="Copyright © 2013 Dipika Jain and Minh Nhat Vu It is a Open Source and can redistribute it and/or modify it under the terms of the GNU General Public License  as published by the Free Software Foundation, either version 3 of the License,  See the GNU General Public License for more details";
+	     
+	    switch (item.getItemId())
+	    {
+
+	    case R.id.menu_about:
+	        Toast.makeText(SingleBrandActivity.this, abc, Toast.LENGTH_SHORT).show();
+	        return true;
+
+	   
+
+	    default:
+	        return super.onOptionsItemSelected(item);
+	    }
+	    /**
+	     * Event Handling for Individual menu item selected
+	     * Identify single menu item by it's id
+	     * */
+		}
 }
