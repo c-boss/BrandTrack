@@ -25,13 +25,14 @@ along with BrandTrack. If not, see <http://www.gnu.org/licenses/gpl.html>
 
 For feedback please mail at dipika_87@yahoo.com/vnm241191@gmail.com
 */
-
-
 package com.oss.track_brand;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -73,12 +74,39 @@ public class ButtonActivity extends Activity {
 				Intent i = new Intent(ButtonActivity.this, SingleBrandActivity.class);
 				TextView textview = (TextView) viewclick;
 				String message =  "fetching in for" + textview.getText().toString();			
-				Toast.makeText(ButtonActivity.this, message, Toast.LENGTH_LONG).show();
 				CharSequence brand_id = textview.getText().toString();
-				//Toast.makeText(getApplicationContext(), brand_id, Toast.LENGTH_LONG).show();
 				i.putExtra("Brand_id", brand_id);
 				startActivity(i);
 			}
 		});
 	}
+	
+	public boolean onCreateOptionsMenu(Menu menu)
+	{
+	    MenuInflater menuInflater = getMenuInflater();
+	    menuInflater.inflate(R.layout.menu, menu);
+	    return true;
+	}
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item)
+	{
+	     CharSequence abc="Copyright © 2013 Dipika Jain and Minh Nhat Vu It is a Open Source and can redistribute it and/or modify it under the terms of the GNU General Public License  as published by the Free Software Foundation, either version 3 of the License,  See the GNU General Public License for more details";
+	     
+	    switch (item.getItemId())
+	    {
+
+	    case R.id.menu_about:
+	        Toast.makeText(ButtonActivity.this, abc, Toast.LENGTH_SHORT).show();
+	        return true;
+
+	   
+
+	    default:
+	        return super.onOptionsItemSelected(item);
+	    }
+	    /**
+	     * Event Handling for Individual menu item selected
+	     * Identify single menu item by it's id
+	     * */
+		}
 }
