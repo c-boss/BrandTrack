@@ -64,5 +64,4 @@ https://github.com/jdipika/BrandTrack/wiki
 
 For any questions please contact
 -------------------------------- 
-Dipika Jain : dipika_87@yahoo.com
-Minh Nhat Vu: vnm241191@gmail.com
+
